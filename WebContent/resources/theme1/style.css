@@ -1,0 +1,42 @@
+.panel{
+	border: 10px;
+	background: rgba(0,0,0,0.5);
+	color: #ffff;
+	text-align: center;
+	padding-top: 50px;
+	position: relative;
+	transition: 0.5s;
+}
+body{
+	background-image: url(images/food1.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	font-family: sans-serif;
+
+	
+}
+
+h3{
+	text-align: center;
+	color:     #a9dfbf;
+	margin-bottom: 30px;
+   	
+}
+.control-label{
+	color:    #f7f9f9   ;
+	
+}
+.panel:hover{
+	background: rgba(0,0,0,0.7);
+
+}
+.btn-success{
+	border: 2px;
+	border-radius: 2px;
+
+}
+
+.form-control{
+	margin-right: 20px;
+}

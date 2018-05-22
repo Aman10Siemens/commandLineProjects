@@ -1,0 +1,51 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: url("images/food-back.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	font-family: sans-serif;
+}
+.panel{
+	border: 10px;
+	background: rgba(0,0,0,0.5);
+	color: #ffff;
+	text-align: center;
+	padding-top: 20px;
+	position: relative;
+	transition: 0.5s;
+}
+a{
+	color: #FDFEFE ;
+}
+h4{
+	margin: 0;
+	padding: 0;
+	color: #F9DF05;
+
+}
+h1{
+	padding-top:30px;
+	color:yellow;
+}
+span{
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	background:#ffff;
+	display: inline-block;
+	text-align: center;
+	border-radius: 4px;
+	margin-left: 10px;
+	box-shadow: -10px 10px 10px rgba(0,0,0,0.7);
+
+}
+.panel:hover{
+	background: rgba(0,0,0,0.7);
+}
+.btn-success{
+	border: 1px;
+	border-radius: 1px;
+
+}
